@@ -37,7 +37,7 @@ const App = () => {
     const handleRemoveFromCart = () => null;
 
     if (isLoading) return <LinearProgress />
-    if (error) return <div>Something went wrong</div><div>Something went wrong</div>
+    if (error) return <div>Something went wrong</div>
     
     return (
       <Wrapper>
